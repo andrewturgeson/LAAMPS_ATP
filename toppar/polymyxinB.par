@@ -1,0 +1,14 @@
+ANGLES
+CT2     CT1     CT2     58.35	113.50	11.16   2.561  ! from lipid CTL2 CTL1 CTL2
+NH1  	CT1  	HA1    	51.50	109.50	 !from prot NH1 CT2 HA2
+
+DIHEDREALS
+HA1  CT1  NH1  C        0.0000  3     0.00   ! prot HA2  CT2  NH1  C        
+O    C    CT1  HA1      0.0000  3   180.00   ! prot O C CT2 HA2
+H    NH2  CT2  CT2      0.1100  3     0.00   ! prot H NH2 CT1 CT2
+NH1  C    CT1  HA1      0.0000  3     0.00   ! prot NH1 C CT2 HA2
+HA1  CT1  NH1  H        0.0000  3     0.00   ! prot HA3 CT3 NH1 H
+H    NH2  CT2  HA2      0.1100  3     0.00   ! prot HC NH2 CT2 HA2
+!H    NH2  CT2  HA2      0.1100  3     0.00   ! prot H NH2 CT2 HB2
+
+END
